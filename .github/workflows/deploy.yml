@@ -2,12 +2,15 @@
 name: Auto Deploy
 
 # 触发部署条件
+
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - master
   pull_request:
-    branches: [ "master" ]
-   workflow_dispatch:
+    branches:
+      - master
+  workflow_dispatch:
 
 # 当前流程要执行的任务（可以多个）
 jobs:
