@@ -9,6 +9,7 @@ on:
   pull_request:
     branches:
       - master
+   workflow_dispatch:
 
 # 当前流程要执行的任务（可以多个）
 jobs:
